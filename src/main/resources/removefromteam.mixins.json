@@ -1,0 +1,17 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "tk.chroma.removefromteam.mixin",
+    "compatibilityLevel": "JAVA_17",
+    "mixins": [
+        "ScoreboardMixin"
+    ],
+    "client": [
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    },
+    "overwrites": {
+        "requireAnnotations": true
+    }
+}
